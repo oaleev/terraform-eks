@@ -1,7 +1,7 @@
 variable "cluster_name" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "eks-workshop"
+  default     = "oaleev-eks-cluster"
 }
 
 variable "cluster_version" {
@@ -13,7 +13,7 @@ variable "cluster_version" {
 variable "ami_release_version" {
   description = "Default EKS AMI release version for node groups"
   type        = string
-  default     = "1.30.0-20240625"
+  default     = "1.35.0-af533f46"
 }
 
 variable "vpc_cidr" {
