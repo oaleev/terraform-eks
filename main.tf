@@ -1,6 +1,6 @@
 locals {
   tags = {
-    created-by = "Oaleev"
+    created-by = "leeva"
     env        = var.cluster_name
   }
 }
